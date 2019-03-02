@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Finder</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm">
+       <div class="container">
+           <div class="navbar-header">
+               <a class="navbar-brand heading" href="#">Movie-Info  </a>
+           </div>
+       </div>
+    </nav>
+ 
+   <div class="container">
+       <div class="jumbotron mt-3">
+           <h3 class="text-center mb-5">Search for any Movie</h3>
+            <form id="searchForm">
+               <div class="input-group">
+                   <span class="input-group-text">Search: </span>
+                   
+                   <input type="text" name="Moviefinder" id="Search_movies" class="form-control" placeholder="Search your favourite Movies">
+               </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>    
+    
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
